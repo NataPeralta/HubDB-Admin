@@ -1,7 +1,6 @@
 const hubspot = require('@hubspot/api-client')
-const hs = new hubspot.Client({
-    accessToken: "pat-na1-5561bebe-17ca-4423-b403-302be2947921"
-})
+const mySecret = process.env['key']
+const hs = new hubspot.Client({ accessToken: mySecret })
 
 const controllers = {
     getTables: async () => {
