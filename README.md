@@ -1,1 +1,1 @@
-# test-EJS
+# HubDB Admin Manager
